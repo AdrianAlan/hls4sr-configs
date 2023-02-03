@@ -1,0 +1,38 @@
+{
+  "binary": {
+    "/": " x / y",
+    "*": " x * y",
+    "+": " x + y",
+    "-": " x - y",
+    "pow": " x**y"
+  },
+  "unary": {
+    "log1p": " sympy.log(x + 1)",
+    "mod": " sympy.Mod(x, 2)",
+    "erf": " sympy.erf",
+    "erfc": " sympy.erfc",
+    "log": " sympy.log(x)",
+    "floor": " sympy.floor",
+    "ceil": " sympy.ceiling",
+    "sign": " sympy.sign",
+    "gamma": " sympy.gamma",
+    "exp": " sympy.exp",
+    "acos": " sympy.acos",
+    "asin": " sympy.asin",
+    "atan": " sympy.atan",
+    "acosh": " sympy.acosh(x)",
+    "asinh": " sympy.asinh",
+    "atanh": " sympy.atanh(sympy.Mod(x + 1, 2) - 1)",
+    "atanh_clip": " sympy.atanh(sympy.Mod(x + 1, 2) - 1)",
+    "sqrt": " sympy.sqrt(x)",
+    "square": " x**2",
+    "cube": " x**3",
+    "neg": " -x",
+    "cos": " sympy.cos",
+    "sin": " sympy.sin",
+    "tan": " sympy.tan",
+    "cosh": " sympy.cosh",
+    "sinh": " sympy.sinh",
+    "tanh": " sympy.tanh"
+  }
+}
