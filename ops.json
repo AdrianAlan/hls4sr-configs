@@ -15,7 +15,6 @@
     "floor": " sympy.floor",
     "ceil": " sympy.ceiling",
     "sign": " sympy.sign",
-    "gamma": " sympy.gamma",
     "exp": " sympy.exp",
     "acos": " sympy.acos",
     "asin": " sympy.asin",
