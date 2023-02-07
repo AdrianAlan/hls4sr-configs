@@ -33,7 +33,7 @@ def main(part, precision):
                  "myproject_prj/solution1/syn/report/myproject_csynth.rpt"],
                 cwd='tmp_test')
             cc = result.decode("utf-8").replace(" ", "").split("|")[1]
-            complexity_of_operators[key] = cc
+            complexity_of_operators[key] = int(cc)
         for key, val in data['unary'].items():
             equation = val.replace('sympy.', '')
             if 'x' in equation and key != 'exp':
@@ -61,7 +61,7 @@ def main(part, precision):
                  "myproject_prj/solution1/syn/report/myproject_csynth.rpt"],
                 cwd='tmp_test')
             cc = result.decode("utf-8").replace(" ", "").split("|")[1]
-            complexity_of_operators[key] = cc
+            complexity_of_operators[key] = int(cc)
 
     config = {}
     config['part'] = part
